@@ -1,0 +1,42 @@
+{
+  "name": "svg-animation-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --content-base public/ --inline",
+    "lint:fix": "eslint --fix .",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "sunya9 <mugen.xyz@gmail.com>",
+  "license": "MIT",
+  "repository": {},
+  "dependencies": {
+    "autoprefixer": "^6.7.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-3": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.4",
+    "milligram-scss": "^1.3.0",
+    "node-sass": "^4.5.0",
+    "postcss-loader": "^1.2.2",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "vue": "^2.1.10",
+    "vue-loader": "^10.2.3",
+    "vue-template-compiler": "^2.1.10",
+    "vuex": "^2.1.1",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "webpack-dev-server": "^1.16.3"
+  }
+}

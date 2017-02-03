@@ -1,0 +1,18 @@
+@import 'variables';
+@import '~milligram-scss';
+$fa-font-path: '~font-awesome/fonts/';
+
+@import '~font-awesome/scss/font-awesome.scss';
+
+
+body {
+  margin: 2rem 0 0;
+  // background-color: lighten(#F7F9E9, 2%);
+  background-color: #fff;
+  $color: #f4f5f6;
+  background-color: $color;
+}
+
+input[type='email'], input[type='number'], input[type='password'], input[type='search'], input[type='tel'], input[type='text'], input[type='url'], textarea, select {
+  background-color: rgba(#fff, .6);
+}
